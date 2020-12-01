@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AdminControllers.AdminController">
+   <children>
+      <Button fx:id="almacenButton" layoutX="92.0" layoutY="120.0" mnemonicParsing="false" onAction="#showAlmacen" text="Ver el almacen" />
+      <Button fx:id="ventasB" layoutX="418.0" layoutY="227.0" mnemonicParsing="false" onAction="#showSells" text="Ver ventas" />
+      <Button fx:id="usuariosB" layoutX="98.0" layoutY="187.0" mnemonicParsing="false" onAction="#showUsers" text="Ver Usuarios" />
+      <Button fx:id="providersB" layoutX="88.0" layoutY="240.0" mnemonicParsing="false" onAction="#showProviders" text="Ver Proveedores" />
+      <Text layoutX="248.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin" wrappingWidth="83.20000000000005">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Button fx:id="backB" layoutX="26.0" layoutY="361.0" mnemonicParsing="false" onAction="#back" text="Regresar" />
+      <Button layoutX="397.0" layoutY="128.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="113.0" text="Vender" />
+   </children>
+</AnchorPane>

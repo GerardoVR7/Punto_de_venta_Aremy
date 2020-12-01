@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="443.0" prefWidth="647.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AdminControllers.SellsController">
+   <children>
+      <TableView layoutY="68.0" prefHeight="375.0" prefWidth="458.0">
+         <columns>
+            <TableColumn prefWidth="80.79998779296875" text="idProduct" />
+            <TableColumn prefWidth="79.20001220703125" text="Nombre" />
+            <TableColumn prefWidth="77.60003662109375" text="Precio" />
+            <TableColumn prefWidth="83.99993896484375" text="Vendido" />
+            <TableColumn prefWidth="137.60003662109375" text="FechaVenta" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
